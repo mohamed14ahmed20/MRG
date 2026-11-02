@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="itcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <!-- Background Badge -->
+  <circle cx="256" cy="170" r="105" fill="#f0fdfa" stroke="#0d9488" stroke-width="3" />
+  
+  <!-- Global Congress Sphere & Audio Waves -->
+  <circle cx="256" cy="170" r="75" stroke="url(#itcGrad)" stroke-width="9" fill="none" />
+  <path d="M181,170 H331 M256,95 C285,120 295,145 295,170 C295,195 285,220 256,245 M256,95 C227,120 217,145 217,170 C217,195 227,220 256,245" stroke="url(#itcGrad)" stroke-width="5" fill="none" />
+  <circle cx="256" cy="170" r="14" fill="#0d9488" />
+  <!-- Medical Cross Accent -->
+  <rect x="252" y="160" width="8" height="20" fill="#ffffff" />
+  <rect x="246" y="166" width="20" height="8" fill="#ffffff" />
+
+  <!-- Typography -->
+  <text x="256" y="336" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="44" font-weight="900" letter-spacing="4" fill="#134e4a" text-anchor="middle">ITC</text>
+  <text x="256" y="374" font-family="'Cairo', system-ui, sans-serif" font-size="20" font-weight="800" fill="#0d9488" text-anchor="middle">لتنظيم المؤتمرات الطبية والفعاليات</text>
+  <rect x="216" y="390" width="80" height="3" rx="1.5" fill="#0d9488" />
+  <text x="256" y="420" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#64748b" text-anchor="middle">MEDICAL CONFERENCES &amp; EVENTS</text>
+  <text x="256" y="442" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="1.5" fill="#94a3b8" text-anchor="middle">A MEMBER OF MRG GROUP</text>
+</svg>

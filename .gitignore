@@ -1,0 +1,11 @@
+.env
+.env*.local
+.env.local
+.env.*
+node_modules
+.next
+*.docx
+*.pdf
+scratch/
+.DS_Store
+node_modules

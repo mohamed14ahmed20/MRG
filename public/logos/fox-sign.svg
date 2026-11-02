@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="foxOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Centered Logo Group matching 512x512 circular framing -->
+  <g transform="translate(48, 167) scale(0.426)">
+    <!-- Letter F (Navy #0e206e) -->
+    <path d="M 0 0 L 160 0 L 160 30 L 35 30 L 35 220 L 140 220 L 140 250 L 35 250 L 35 417 L 0 417 Z" fill="#0e206e" />
+
+    <!-- Stylized Curled Fox Head Forming Letter 'O' (Orange) -->
+    <!-- Outer orange fox body swirl and head -->
+    <g transform="translate(195, 30)">
+      <!-- Orange Fox Body Loop -->
+      <path d="M 125 0 C 194 0 250 56 250 125 C 250 194 194 250 125 250 C 56 250 0 194 0 125 C 0 85 20 50 50 25 C 70 8 95 0 125 0 Z" fill="url(#foxOrangeGrad)" />
+      
+      <!-- Inner cutout & Fox profile carving in white/negative space -->
+      <!-- Center ring hole -->
+      <path d="M 125 65 C 158 65 185 92 185 125 C 185 158 158 185 125 185 C 92 185 65 158 65 125 C 65 92 92 65 125 65 Z" fill="#ffffff" />
+      
+      <!-- Fox head silhouette & muzzle swoosh -->
+      <path d="M 45 135 C 75 80 135 60 195 90 C 210 98 225 110 235 125 C 220 100 185 85 145 95 C 105 105 75 130 55 160 Z" fill="#ffffff" />
+      <!-- Fox ear & facial contour -->
+      <path d="M 170 35 L 205 60 L 180 85 Z" fill="url(#foxOrangeGrad)" />
+    </g>
+
+    <!-- Letter X (Navy #0e206e) -->
+    <path d="M 485 0 L 530 0 L 610 145 L 690 0 L 735 0 L 635 180 L 740 360 L 695 360 L 610 215 L 525 360 L 480 360 L 585 180 Z" fill="#0e206e" />
+
+    <!-- Word SIGN (Black #050b14) -->
+    <g transform="translate(760, 140)">
+      <text x="0" y="70" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="95" font-weight="900" letter-spacing="4" fill="#070e1e">SIGN</text>
+    </g>
+
+    <!-- Tagline: THE POWER OF AD & MATERIALS -->
+    <g transform="translate(70, 395)">
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="2.5" fill="#070e1e">THE POWER OF AD &amp; MATERIALS</text>
+    </g>
+  </g>
+</svg>

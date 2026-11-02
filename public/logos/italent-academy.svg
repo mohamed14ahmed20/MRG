@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="itGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <!-- Background Badge -->
+  <rect x="156" y="70" width="200" height="200" rx="36" fill="#eff6ff" stroke="#3b82f6" stroke-width="3" />
+  
+  <!-- Graduation Cap & Rising Career Steps -->
+  <polygon points="256,105 336,140 256,175 176,140" fill="url(#itGrad)" />
+  <path d="M206,160 V195 C206,215 306,215 306,195 V160" fill="none" stroke="url(#itGrad)" stroke-width="8" stroke-linecap="round" />
+  <line x1="336" y1="140" x2="336" y2="195" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" />
+  <circle cx="336" cy="205" r="7" fill="#f59e0b" />
+  <!-- Star of Excellence -->
+  <polygon points="256,220 262,235 277,235 265,245 270,260 256,250 242,260 247,245 235,235 250,235" fill="#f59e0b" />
+
+  <!-- Typography -->
+  <text x="256" y="336" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="44" font-weight="900" letter-spacing="4" fill="#1e3a8a" text-anchor="middle">I-TALENT</text>
+  <text x="256" y="374" font-family="'Cairo', system-ui, sans-serif" font-size="22" font-weight="800" fill="#2563eb" text-anchor="middle">أكاديمية آي تالنت للتدريب</text>
+  <rect x="216" y="390" width="80" height="3" rx="1.5" fill="#3b82f6" />
+  <text x="256" y="420" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#64748b" text-anchor="middle">TRAINING &amp; CAREER ACADEMY</text>
+  <text x="256" y="442" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="1.5" fill="#94a3b8" text-anchor="middle">A MEMBER OF MRG GROUP</text>
+</svg>

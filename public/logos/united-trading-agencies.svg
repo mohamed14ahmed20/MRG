@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="utGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <!-- Background Badge -->
+  <circle cx="256" cy="170" r="105" fill="#fffbeb" stroke="#f59e0b" stroke-width="3" stroke-dasharray="7 5" />
+  
+  <!-- Global Trade Synergy Arrows & Power Node -->
+  <circle cx="256" cy="170" r="75" stroke="url(#utGrad)" stroke-width="10" stroke-linecap="round" fill="none" />
+  <path d="M226,140 L256,110 L286,140" stroke="url(#utGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M286,200 L256,230 L226,200" stroke="url(#utGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <rect x="242" y="146" width="28" height="48" rx="6" fill="#d97706" />
+  <rect x="251" y="138" width="10" height="8" rx="2" fill="#b45309" />
+
+  <!-- Typography -->
+  <text x="256" y="336" font-family="'Cairo', system-ui, sans-serif" font-size="30" font-weight="900" fill="#78350f" text-anchor="middle">الشركة المتحدة</text>
+  <text x="256" y="374" font-family="'Cairo', system-ui, sans-serif" font-size="22" font-weight="700" fill="#b45309" text-anchor="middle">للتجارة والتوكيلات العالمية</text>
+  <rect x="216" y="390" width="80" height="3" rx="1.5" fill="#f59e0b" />
+  <text x="256" y="420" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="800" letter-spacing="2" fill="#92400e" text-anchor="middle">UNITED TRADING &amp; AGENCIES</text>
+  <text x="256" y="442" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="1.5" fill="#94a3b8" text-anchor="middle">A MEMBER OF MRG GROUP</text>
+</svg>

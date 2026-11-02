@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="susGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <!-- Background Badge -->
+  <rect x="156" y="70" width="200" height="200" rx="36" fill="#eff6ff" stroke="#3b82f6" stroke-width="3" />
+  
+  <!-- Biometric Security Shield & IP Grid -->
+  <path d="M256,92 L326,122 V182 C326,227 296,257 256,267 C216,257 186,227 186,182 V122 Z" fill="none" stroke="url(#susGrad)" stroke-width="12" stroke-linejoin="round" />
+  <path d="M226,177 L246,197 L291,147" stroke="#10b981" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <circle cx="256" cy="125" r="7" fill="#3b82f6" />
+
+  <!-- Typography -->
+  <text x="256" y="336" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="44" font-weight="900" letter-spacing="6" fill="#1e3a8a" text-anchor="middle">SUS</text>
+  <text x="256" y="374" font-family="'Cairo', system-ui, sans-serif" font-size="22" font-weight="700" fill="#2563eb" text-anchor="middle">للأنظمة الأمنية والمراقبة الذكية</text>
+  <rect x="216" y="390" width="80" height="3" rx="1.5" fill="#3b82f6" />
+  <text x="256" y="420" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#64748b" text-anchor="middle">SECURITY SYSTEMS &amp; CCTV</text>
+  <text x="256" y="442" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="1.5" fill="#94a3b8" text-anchor="middle">A MEMBER OF MRG GROUP</text>
+</svg>

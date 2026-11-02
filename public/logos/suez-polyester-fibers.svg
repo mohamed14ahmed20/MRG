@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="spfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="spfShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#10b981" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Background Badge -->
+  <circle cx="256" cy="180" r="110" fill="#ecfdf5" stroke="#10b981" stroke-width="3" stroke-dasharray="8 6" />
+  
+  <!-- Recycled Fiber Infinity Node Symbol -->
+  <path d="M190 180 C165 180 150 160 150 180 C150 200 165 220 190 220 C220 220 245 190 256 180 C267 170 292 140 322 140 C347 140 362 160 362 180 C362 200 347 220 322 220 C292 220 267 190 256 180 C245 170 220 140 190 140 C165 140 150 160 150 180 Z"
+        stroke="url(#spfGrad)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#spfShadow)" />
+  <circle cx="190" cy="180" r="14" fill="#10b981" />
+  <circle cx="322" cy="180" r="14" fill="#047857" />
+  <circle cx="256" cy="180" r="7" fill="#059669" />
+
+  <!-- Typography -->
+  <text x="256" y="340" font-family="'Cairo', 'Segoe UI', system-ui, sans-serif" font-size="34" font-weight="900" fill="#064e3b" text-anchor="middle">مصنع السويس</text>
+  <text x="256" y="380" font-family="'Cairo', 'Segoe UI', system-ui, sans-serif" font-size="24" font-weight="700" fill="#047857" text-anchor="middle">لألياف البوليستر</text>
+  <rect x="206" y="396" width="100" height="3" rx="1.5" fill="#10b981" />
+  <text x="256" y="426" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="800" letter-spacing="3" fill="#065f46" text-anchor="middle">SUEZ POLYESTER FIBERS</text>
+  <text x="256" y="448" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="1.5" fill="#64748b" text-anchor="middle">A MEMBER OF MRG GROUP</text>
+</svg>
