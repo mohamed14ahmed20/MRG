@@ -209,6 +209,42 @@ const COMPANY_ENRICHMENTS: Record<number, {
   }
 };
 
+const SUPPLEMENTAL_COMPANIES: Company[] = [
+  {
+    id: 9001,
+    slug: 'viapurepharma',
+    name: {
+      ar: 'فيا بيور فارما للتجارة والاستيراد (ViaPurePharma)',
+      en: 'ViaPurePharma — For Trading & Importation'
+    },
+    sector: 'trading',
+    sectorName: { ar: 'التجارة والتوكيلات', en: 'Commercial Agencies & Trading' },
+    shortDesc: {
+      ar: 'شركة متخصصة في التجارة والاستيراد وتوريد المنتجات والمستلزمات الطبية والدوائية وفق أعلى معايير الجودة.',
+      en: 'Specialized in trading, importation, and supply of pharmaceutical and healthcare products to the highest quality standards.'
+    },
+    fullDesc: {
+      ar: 'فيا بيور فارما للتجارة والاستيراد (ViaPurePharma) هي إحدى شركات مجموعة محمود رمضان (MRG) العاملة في قطاع التجارة والاستيراد، وتختص باستيراد وتوريد وتوزيع المنتجات والمستلزمات الطبية والدوائية وفق أعلى معايير الجودة والاعتماد.',
+      en: 'ViaPurePharma — For Trading & Importation is an MRG Group company operating in commercial trading and importation, dedicated to sourcing, importing, and distributing quality pharmaceutical and healthcare products across regional markets.'
+    },
+    image: '/uploads/viapurepharma-cover.png',
+    logo: '/logos/viapurepharma.png',
+    location: { ar: 'القاهرة، جمهورية مصر العربية', en: 'Cairo, Egypt' },
+    features: {
+      ar: [
+        'استيراد وتوريد المنتجات والمستلزمات الدوائية والطبية',
+        'التزام تام بمعايير الجودة وسلاسل الإمداد المعتمدة',
+        'شراكات تجارية وتوزيعية موثوقة في السوق المصري والإقليمي'
+      ],
+      en: [
+        'Importation and supply of pharmaceutical and healthcare products',
+        'Strict adherence to quality standards and reliable supply chains',
+        'Trusted commercial partnerships and regional distribution'
+      ]
+    }
+  }
+];
+
 export async function getCompaniesFromDirectSql(): Promise<Company[]> {
   const companyIds = Object.keys(COMPANY_ENRICHMENTS).map(Number);
 
@@ -235,7 +271,7 @@ export async function getCompaniesFromDirectSql(): Promise<Company[]> {
       .replace(/\s+/g, ' ')
       .trim();
   };
-  return rows.map(r => {
+  const mapped: Company[] = rows.map(r => {
     const enrich = COMPANY_ENRICHMENTS[r.ID] || {
       slug: `company-${r.ID}`,
       nameEn: r.post_title,
@@ -280,6 +316,14 @@ export async function getCompaniesFromDirectSql(): Promise<Company[]> {
       }
     };
   });
+
+  for (const extra of SUPPLEMENTAL_COMPANIES) {
+    if (!mapped.some(c => c.slug === extra.slug)) {
+      mapped.push(extra);
+    }
+  }
+
+  return mapped;
 }
 
 export async function getCompanyBySlugDirectSql(slug: string): Promise<Company | null> {
