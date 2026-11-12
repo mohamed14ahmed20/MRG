@@ -173,6 +173,7 @@ const COMPANY_ENRICHMENTS: Record<number, {
     fullDescEn: 'Mran Sports Investment spearheads athletic empowerment through modern sports training academies, world-class padel courts, youth football leagues, and fitness facilities managed by accredited coaching staff.',
     image: '/uploads/2024/12/330843219_521342616580878_3529175051695746009_n.jpg',
     logo: '/logos/mran-logo-extracted.png',
+    website: 'https://www.mransports.com/en',
     location: { ar: 'القاهرة الجديدة، مصر', en: 'New Cairo, Egypt' },
     featuresAr: ['أكاديميات تدريب ناشئين تحت إشراف كوادر رياضية معتمدة', 'ملاعب بادل وتنس حديثة ومجهزة بأعلى المواصفات', 'تنظيم بطولات ودوريات رياضية احترافية'],
     featuresEn: ['Youth training academies mentored by certified coaches', 'Modern competition-ready padel and multi-sport courts', 'Organizing professional corporate and youth tournaments']
@@ -229,6 +230,7 @@ const SUPPLEMENTAL_COMPANIES: Company[] = [
     },
     image: '/uploads/viapurepharma-cover.png',
     logo: '/logos/viapurepharma.png',
+    website: 'https://viapurepharma.com/',
     location: { ar: 'القاهرة، جمهورية مصر العربية', en: 'Cairo, Egypt' },
     features: {
       ar: [
